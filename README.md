@@ -6,21 +6,6 @@
 
   <h3 align="center">ASPNETBoilerplate</h3>
 
-  <p align="center">
-    A simple and skeletal boilerplate for ASP.NET Core Web API projects
-    <br/>
-    <br/>
-    <a href="https://github.com/shenoyranjith/ASPNetBoilerplate"><strong>Explore the docs »</strong></a>
-    <br/>
-    <br/>
-    <a href="https://github.com/shenoyranjith/ASPNetBoilerplate">View Demo</a>
-    .
-    <a href="https://github.com/shenoyranjith/ASPNetBoilerplate/issues">Report Bug</a>
-    .
-    <a href="https://github.com/shenoyranjith/ASPNetBoilerplate/issues">Request Feature</a>
-  </p>
-</p>
-
 ![Contributors](https://img.shields.io/github/contributors/shenoyranjith/ASPNetBoilerplate?color=dark-green) ![Forks](https://img.shields.io/github/forks/shenoyranjith/ASPNetBoilerplate?style=social) ![Stargazers](https://img.shields.io/github/stars/shenoyranjith/ASPNetBoilerplate?style=social) ![Issues](https://img.shields.io/github/issues/shenoyranjith/ASPNetBoilerplate) ![License](https://img.shields.io/github/license/shenoyranjith/ASPNetBoilerplate) 
 
 ## Table Of Contents
@@ -78,9 +63,12 @@ All you have to do to use this boilerplate is to fork this repository and then c
 
 ## Usage
 
-1. Rename the solution and project files to that of your solution/project.
-2. Update namespaces to that of your solution/project.
-3. Update the connection strings in the Web and Migrator project to that of your database.
+1. Run the rename.ps1 file to rename all the files and update the namespaces with your project name.
+```
+.\rename.ps1 <YOUR_PROJECT_NAME>
+```
+2. Update the connection strings in the Web and Migrator project to that of your database.
+3. Replace the admin username and password in the 20230306220822_InitialMigration.cs file. The password has to be SHA256 encoded.
 4. Follow the instructions in the [README](https://github.com/shenoyranjith/ASPNetBoilerplate/blob/master/src/ASPNetBoilerplate.Migrator/README.md) in the Migrator to run the migrations.
 
 ## Roadmap
