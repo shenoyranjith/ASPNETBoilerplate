@@ -41,6 +41,12 @@
 ## About The Project
 
 This boilerplate was built to jump start development with minimal setup and save hours configuring and setting up common functionalities in a REST API project. The project followes the N Tier Architecture.
+The boilerplate includes the following features
+1. JWT Based Authentication
+2. Role based Authorization
+3. Custom global error handling
+4. Auto mapping of domain entities to DB tables through Dapper Mapper classes
+5. Generic repository for CRUD operations
  
 The solution has four projects that are included in it.
 1. Web - This is the main ASP .NET Core project.
