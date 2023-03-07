@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "ASPNetBoilerplate.Migrator": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Debug"
+      }
+    }
+  }
+}
