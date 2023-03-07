@@ -62,7 +62,8 @@ All you have to do to use this boilerplate is to fork this repository and then c
 .\rename.ps1 <YOUR_PROJECT_NAME>
 ```
 2. Update the connection strings in the Web and Migrator project to that of your database.
-3. Follow the instructions in the [README](https://github.com/shenoyranjith/ASPNetBoilerplate/blob/master/src/ASPNetBoilerplate.Migrator/README.md) in the Migrator to run the migrations.
+3. Replace the admin username and password in the 20230306220822_InitialMigration.cs file. The password has to be SHA256 encoded.
+4. Follow the instructions in the [README](https://github.com/shenoyranjith/ASPNetBoilerplate/blob/master/src/ASPNetBoilerplate.Migrator/README.md) in the Migrator to run the migrations.
 
 ## Roadmap
 
