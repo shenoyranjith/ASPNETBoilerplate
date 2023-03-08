@@ -15,7 +15,7 @@ namespace ASPNetBoilerplate.Web.Controllers
     /// Controller for user
     /// </summary>
     /// <seealso cref="ASPNetBoilerplate.Web.Controllers.BaseController" />
-    [Route("v{version:apiVersion}/[controller]/")]
+    [Route("api/v{version:apiVersion}/[controller]/")]
     public class UsersController : BaseController
     {
         /// <summary>

@@ -15,7 +15,7 @@ namespace ASPNetBoilerplate.Web.Controllers
     /// <seealso cref="Microsoft.AspNetCore.Mvc.ControllerBase" />
     [ApiVersion("1.0")]
     [Produces("application/json")]
-    [Route("v{version:apiVersion}/[controller]/")]
+    [Route("api/v{version:apiVersion}/[controller]/")]
     [ApiController]
     [CommonExceptionFilter]
     [AuthenticationExceptionFilter]
