@@ -149,31 +149,6 @@ namespace ASPNetBoilerplate.Repository.Generic
         }
 
         /// <summary>
-        /// GetMultiple
-        /// </summary>
-        /// <param name="query">query</param>
-        /// <param name="dynamicParameters">dynamicParameters</param>
-        /// <param name="commandType">commandType</param>
-        /// <returns>
-        /// PageResult - TEntity
-        /// </returns>
-        public PageResult<TEntity> GetMultiple(string query, DynamicParameters dynamicParameters, CommandType commandType)
-        {
-            using (var connection = new SqlConnection(ConnectionString))
-            {
-                var result = connection.QueryMultiple(
-                    query,
-                    dynamicParameters,
-                    commandType: commandType);
-                return new PageResult<TEntity>()
-                {
-                    TotalCount = result.Read<int>().First(),
-                    Data = result.Read<TEntity>().ToList()
-                };
-            }
-        }
-
-        /// <summary>
         /// Returns the entities matched by entityIds
         /// </summary>
         /// <param name="entityIds">The Ids of the entities</param>

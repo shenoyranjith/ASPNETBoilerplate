@@ -1,6 +1,4 @@
-﻿using ASPNetBoilerplate.Domain.Entities;
-using Dapper;
-using DapperExtensions;
+﻿using DapperExtensions;
 using System.Data;
 
 namespace ASPNetBoilerplate.Repository.Generic.Interfaces
@@ -54,17 +52,6 @@ namespace ASPNetBoilerplate.Repository.Generic.Interfaces
         /// Entity inherited from BaseEntity
         /// </returns>
         TEntity Get(int id);
-
-        /// <summary>
-        /// GetMultiple
-        /// </summary>
-        /// <param name="query">query</param>
-        /// <param name="dynamicParameters">dynamicParameters</param>
-        /// <param name="commandType">commandType</param>
-        /// <returns>
-        /// SqlMapper.GridReader
-        /// </returns>
-        PageResult<TEntity> GetMultiple(string query, DynamicParameters dynamicParameters, CommandType commandType = CommandType.StoredProcedure);
 
         /// <summary>
         /// Returns the entities matched by entityIds
