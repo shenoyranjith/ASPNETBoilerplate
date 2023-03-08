@@ -10,7 +10,7 @@ namespace ASPNetBoilerplate.Migrator.Migrations
             // Users table
             Create
                 .Table("Users")
-                .WithColumn("Id").AsInt32().Identity().PrimaryKey("Users_PK")
+                .WithColumn("Id").AsInt32().Identity().PrimaryKey("PK_Users")
                 .WithColumn("Username").AsString().NotNullable()
                 .WithColumn("FirstName").AsString().NotNullable()
                 .WithColumn("LastName").AsString().Nullable()
