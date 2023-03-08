@@ -5,6 +5,11 @@
   </a>
 
   <h3 align="center">ASPNETBoilerplate</h3>
+  <p align="center">
+    A simple and skeletal boilerplate for ASP.NET Core Web API projects
+    <br/>
+  </p>
+</p>
 
 ![Contributors](https://img.shields.io/github/contributors/shenoyranjith/ASPNetBoilerplate?color=dark-green) ![Forks](https://img.shields.io/github/forks/shenoyranjith/ASPNetBoilerplate?style=social) ![Stargazers](https://img.shields.io/github/stars/shenoyranjith/ASPNetBoilerplate?style=social) ![Issues](https://img.shields.io/github/issues/shenoyranjith/ASPNetBoilerplate) ![License](https://img.shields.io/github/license/shenoyranjith/ASPNetBoilerplate) 
 
